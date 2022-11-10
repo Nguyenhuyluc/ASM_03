@@ -1,0 +1,50 @@
+@media screen and (max-width:768px) {
+  #avatar {
+    display: none;
+  }
+
+  #container {
+    grid-template-columns: 1fr;
+    border-spacing: 15px;
+  }
+
+  .ten {
+    font-size: 30px;
+    right: 15px;
+  }
+
+  .nghe {
+    top: -180px;
+  }
+
+  #chungchi_java {
+    margin-top: 70px;
+  }
+
+  #container2 {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  #container3 {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+  }
+
+  .col-sm-4 {
+    height: 100%;
+  }
+
+  .ten {
+    color: #faf7f7;
+    margin-top: 200px;
+    margin-left: 0px;
+  }
+
+  .nghe {
+    color: #faf7f7;
+    margin-top: 90px;
+    right: 250px;
+    font-size: 20px;
+  }
+}

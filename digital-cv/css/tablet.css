@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+  .row {
+    display: block;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .col-6,
+  .col-3 {
+    width: 150%;
+  }
+
+  .bt1 {
+    height: 20px;
+    width: 510px;
+    margin-left: -15px;
+    top: -30px;
+    background-color: rgb(78, 78, 245);
+    border: none;
+  }
+
+  .bt {
+    height: 20px;
+    width: 510px;
+    margin-left: -15px;
+    top: -25px;
+    background-color: rgb(78, 78, 245);
+    border: none;
+  }
+
+  #icon {
+    display: block;
+    color: black;
+    position: absolute;
+    left: 350px;
+    font-size: 30px;
+    margin-top: -25px;
+  }
+}

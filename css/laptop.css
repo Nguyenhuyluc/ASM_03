@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+#img {
+    filter: brightness(50%);
+    position: relative;
+}
+
+body {
+    margin: 40px;
+    padding: auto;
+
+}
+
+#banner {
+    position: relative;
+}
+
+/*xây dựng phần banner*/
+#avatar {
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid white;
+    bottom: 0px;
+    right: 640px;
+
+}
+
+.ten {
+    font-size: 40px;
+    position: relative;
+    right: 60px;
+}
+
+.nghe {
+    color: #faf7f7;
+    position: absolute;
+    margin-top: 140px;
+    right: 550px;
+    font-size: 20px;
+}
+
+#container {
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.col-3 {
+    font-size: 30px;
+}
+
+.indam {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#icon1 {
+    font-size: 200%;
+    color: #199cdb;
+}
+
+.icon-doc-text-inv {
+    margin-left: -10px;
+}
+
+.icon-mail-alt {
+    margin-left: 15px;
+}
+
+.icon-star-1 {
+    margin-left: -10px;
+}
+
+/*thông tin cá nhân*/
+.modal-form.hidden {
+    position: absolute;
+    top: 50%;
+    display: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.modal-form.show {
+    display: block;
+}
+
+#gtbt {
+    list-style: none;
+    justify-self: start;
+}
+
+#personal-info {
+    padding: 20px;
+    height: 100%;
+    position: relative;
+    top: -18px;
+    background-color: #e3dbdb;
+    border-radius: 5px;
+}
+
+#target {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+#ttlh li {
+    color: rgb(33, 140, 140);
+    font-size: 20px;
+    float: left;
+}
+
+/*xác nhận email*/
+.xacnhanemail.show {
+    width: 100%;
+    height: 200px;
+}
+
+.col-6 {
+    padding: 20px;
+}
+
+.xacnhanemail.hidden {
+    display: none;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#email {
+    width: 100%;
+    height: 20px;
+    background: transparent;
+    padding: 20px 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.alert {
+    position: absolute;
+    left: -15px;
+    top: 30px;
+}
+
+.show_modal {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    background-color: #199cdb;
+    border-radius: 5px;
+    border: 1px solid #199cdb;
+}
+
+/*xây dựng phần thong tin nghề nghiệp*/
+#container2 {
+
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ic-toolbox {
+    margin-left: -50px;
+}
+
+.kinhnghiem,
+.hocvan,
+.sothich,
+.ngonngu,
+.kynang,
+.hoatdong {
+    display: none;
+}
+
+#menu {
+    background-color: #def085;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.view_more {
+    border: 1px solid #d6c08d;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: aquamarine;
+    display: none;
+}
+
+.view_less {
+    border: 1px solid #d6c08d;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: aquamarine;
+    display: none;
+}
+
+#menu h1:hover {
+    color: #199cdb;
+}
+
+#container2 :hover .view_more {
+    display: block;
+}
+
+.aa {
+    background-color: #199cdb;
+    border-radius: 15px;
+    padding: 3px;
+    color: #f7f7f7;
+
+
+}
+
+#icon {
+    font-size: 100%;
+    color: gray;
+    position: relative;
+    right: -100px;
+}
+
+
+.kn1 {
+    margin-top: 20px;
+    line-height: 1.5;
+    list-style: none;
+
+}
+
+.kn2 {
+    margin-top: 20px;
+    line-height: 1.5;
+    list-style: none;
+
+}
+
+#kynang {
+    list-style: none;
+    line-height: 30px;
+    margin-top: 20px;
+    border-bottom: 2px;
+
+}
+
+.sp1 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.sp2 {
+    background: grey;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.sp3 {
+    background: grey;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.sp4 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.sp5 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.sp6 {
+    background: grey;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.sp7 {
+    background: #199cdb;
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.sp8 {
+    background: #199cdb;
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.sp9 {
+    background: grey;
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.sp10 {
+    background: #199cdb;
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.sp11 {
+    background: grey;
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.sp12 {
+    background: grey;
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+#ngonngu {
+    list-style: none;
+    line-height: 30px;
+    margin-top: 20px;
+
+}
+
+#sp1 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+#sp2 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+#sp3 {
+    background: grey;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+#sp4 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+#sp5 {
+    background: grey;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+#sp6 {
+    background: grey;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+#sothich {
+    list-style: none;
+    margin-top: 40px;
+    align-content: center;
+}
+
+.st1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+.st1 li {
+    font-size: 30px;
+    color: #199cdb;
+}
+
+.megaphone {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #199cdb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.st2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hd1 {
+    margin-top: 20px;
+    line-height: 1.5;
+    list-style: none;
+}
+
+.hd2 {
+    margin-top: 20px;
+    line-height: 1.5;
+    list-style: none;
+
+}
+
+.hv1 {
+    margin-top: 20px;
+    line-height: 1.5;
+    list-style: none;
+}
+
+.hv2 {
+    margin-top: 20px;
+    line-height: 1.5;
+    list-style: none;
+}
+
+.bg-grey {
+    margin: 0;
+    padding: auto;
+
+}
+
+/*chứng chỉ giải thưởng*/
+#container3 {
+    border-spacing: 20px;
+}
+
+.duongvien {
+    border: 1px solid #d6c08d;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#chungchi_java {
+    margin-top: 80px;
+}
+
+#funix {
+    margin-top: 60px;
+}
+
+/*.ccgt1 {
+    margin-top: -160px;
+    margin-left: 360px;
+    line-height: 40px;
+}
+
+.ccgt2 {
+    margin-top: -160px;
+    margin-left: 360px;
+    line-height: 40px;
+}
+
+
+.ccgt3 {
+    margin-top: -160px;
+    margin-left: 360px;
+    line-height: 40px;
+}*/
+
+/*dự án*/
+
+.nam {
+    border-radius: 10px;
+    background: #199cdb;
+    padding: 5px;
+    width: 30px;
+    color: #e3dbdb;
+}
+
+
+#indam {
+    height: 50px;
+    border: 1px solid grey;
+    align-content: center;
+
+}
+
+#cvcn {
+    justify-content: center;
+    align-content: center;
+    border: 1px solid grey;
+    text-align: start;
+
+}
+
+.mota {
+    padding: 10px;
+}
+
+.noidung {
+    padding: 10px;
+}
+
+table {
+    border: 1px solid rgb(162, 157, 157);
+}
+
+tr {
+    border: 1px solid rgb(162, 157, 157);
+}
+
+/*phần liên hệ*/
+ul li {
+    display: inline-block;
+}
+
+#footer {
+    text-align: center;
+
+}
+
+#icon2 {
+    font-size: 300%;
+    color: #199cdb;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.span1 {
+    text-transform: uppercase;
+    font-weight: 1px;
+}
+
+.span1::before {
+    content: "•";
+    font-size: 250%;
+    color: #339af0;
+    position: absolute;
+    width: 1em;
+    left: -30px;
+    top: -15px;
+}

@@ -1,0 +1,43 @@
+@media screen and (max-width: 500px) {
+  .row {
+    display: block;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .col-6,
+  .col-3 {
+    width: 100%;
+  }
+
+  .bt1 {
+    height: 20px;
+    width: 500px;
+    margin-left: -15px;
+    position: relative;
+    top: -30px;
+    background-color: rgb(78, 78, 245);
+    border: none;
+  }
+
+  .bt {
+    height: 20px;
+    width: 610px;
+    margin-top: 110px;
+    margin-left: -15px;
+    background-color: rgb(78, 78, 245);
+    border: none;
+  }
+
+  #icon {
+    color: black;
+    left: 220px !important;
+    font-size: 25px;
+    margin-top: 0px;
+  }
+
+  #time_line tr {
+    height: auto;
+    display: inline-block;
+  }
+}

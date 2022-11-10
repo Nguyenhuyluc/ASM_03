@@ -1,0 +1,63 @@
+@media screen and (max-width:500px) {
+  #personal-info li {
+    display: block;
+  }
+
+  #container2 {
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-content: center;
+
+  }
+
+  #container3 {
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  /*.ccgt1 {
+    left: 0px;
+    line-height: 1.5;
+    top: 240px;
+
+  }
+
+  .ccgt2 {
+    left: 0px;
+    line-height: 1.5;
+    top: 560px;
+
+  }
+
+  .ccgt3 {
+    left: 0px;
+    line-height: 1.5;
+    top: 880px;
+
+  }
+
+  
+
+  #ccgt {
+    margin-left: -220px;
+    padding: 30px;
+  }*/
+  #container4 {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    justify-content: center;
+  }
+
+  .duongvien {
+    display: none;
+  }
+
+  .icon-linkedin-circled {
+    margin-left: -10px;
+  }
+
+  .icon-github-circled {
+    margin-left: -20px;
+  }
+}

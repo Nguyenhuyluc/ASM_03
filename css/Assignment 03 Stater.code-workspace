@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../digital-cv"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Assignment 02 Stater"
+	}
+}
