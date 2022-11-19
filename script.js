@@ -33,51 +33,69 @@ function checkEmail() {
   }
 }
 function myFunction() {
+  var viewMore = document.getElementById('view_more')
   var show = document.getElementById("kinhnghiem");
   if (show.style.display === "none") {
     show.style.display = "block";
+    viewMore.innerHTML = '▼View Less'
   } else {
     show.style.display = "none";
+    viewMore.innerHTML = '▼View More'
   }
 }
+
 function myFunction5() {
-  var show1 = document.getElementById("hocvan");
-  var viewMore = document.getElementById('view_more')
-  if (show1.style.display === "none") {
-    show1.style.display = "block";
+  var viewMore5 = document.getElementById('view_more5')
+  var show = document.getElementById("hocvan");
+  if (show.style.display === "none") {
+    show.style.display = "block";
+    viewMore5.innerHTML = '▼View Less'
   } else {
-    show1.style.display = "none";
+    show.style.display = "none";
+    viewMore5.innerHTML = '▼View More'
   }
 }
 function myFunction2() {
-  var show2 = document.getElementById("hoatdong");
-  if (show2.style.display === "none") {
-    show2.style.display = "block";
+  var viewMore2 = document.getElementById('view_more2')
+  var show = document.getElementById("hoatdong");
+  if (show.style.display === "none") {
+    show.style.display = "block";
+    viewMore2.innerHTML = '▼View Less'
   } else {
-    show2.style.display = "none";
+    show.style.display = "none";
+    viewMore2.innerHTML = '▼View More'
   }
 }
 function myFunction4() {
-  var show3 = document.getElementById("ngonngu");
-  if (show3.style.display === "none") {
-    show3.style.display = "block";
+  var viewMore4 = document.getElementById('view_more4')
+  var show = document.getElementById("ngonngu");
+  if (show.style.display === "none") {
+    show.style.display = "block";
+    viewMore4.innerHTML = '▼View Less';
   } else {
-    show3.style.display = "none";
+    show.style.display = "none";
+    viewMore4.innerHTML = '▼View More';
   }
 }
 function myFunction3() {
-  var show4 = document.getElementById("sothich");
-  if (show4.style.display === "none") {
-    show4.style.display = "block";
+  var viewMore3 = document.getElementById('view_more3')
+  var show = document.getElementById("sothich");
+  if (show.style.display === "none") {
+    show.style.display = "block";
+    viewMore3.innerHTML = '▼View Less';
   } else {
-    show4.style.display = "none";
+    show.style.display = "none";
+    viewMore3.innerHTML = '▼View More';
   }
 }
 function myFunction1() {
-  var show5 = document.getElementById("kynang");
-  if (show5.style.display === "none") {
-    show5.style.display = "block";
+  var viewMore1 = document.getElementById('view_more1')
+  var show = document.getElementById("kynang");
+  if (show.style.display === "none") {
+    show.style.display = "block";
+    viewMore1.innerHTML = '▼View Less';
   } else {
-    show5.style.display = "none";
+    show.style.display = "none";
+    viewMore1.innerHTML = '▼View More';
   }
 }

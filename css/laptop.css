@@ -16,10 +16,6 @@ body {
 
 }
 
-#banner {
-    position: relative;
-}
-
 /*xây dựng phần banner*/
 #avatar {
     position: absolute;
@@ -100,7 +96,6 @@ body {
     height: 100%;
     position: relative;
     top: -18px;
-    background-color: #e3dbdb;
     border-radius: 5px;
 }
 

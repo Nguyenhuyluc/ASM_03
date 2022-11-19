@@ -16,33 +16,6 @@
     width: 100%;
   }
 
-  /*.ccgt1 {
-    left: 0px;
-    line-height: 1.5;
-    top: 240px;
-
-  }
-
-  .ccgt2 {
-    left: 0px;
-    line-height: 1.5;
-    top: 560px;
-
-  }
-
-  .ccgt3 {
-    left: 0px;
-    line-height: 1.5;
-    top: 880px;
-
-  }
-
-  
-
-  #ccgt {
-    margin-left: -220px;
-    padding: 30px;
-  }*/
   #container4 {
     grid-template-columns: 1fr;
     row-gap: 10px;
@@ -60,4 +33,15 @@
   .icon-github-circled {
     margin-left: -20px;
   }
+
+  .ten {
+    font-size: 15px;
+  }
+
+  .nghe {
+    font-size: 10px;
+    top: -180px;
+    left: 110px;
+  }
+
 }
