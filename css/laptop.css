@@ -22,7 +22,8 @@ body {
     border-radius: 50%;
     border: 5px solid white;
     bottom: 0px;
-    right: 640px;
+    right: 660px;
+    bottom: 100px;
 
 }
 
@@ -189,14 +190,6 @@ form {
 }
 
 .view_more {
-    border: 1px solid #d6c08d;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: aquamarine;
-    display: none;
-}
-
-.view_less {
     border: 1px solid #d6c08d;
     border-radius: 5px;
     padding: 5px;
